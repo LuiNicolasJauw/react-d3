@@ -1,0 +1,28 @@
+li{
+    border:5px solid black;
+    display: grid;
+    padding:5px;
+}
+
+ul{
+    list-style-type: none;
+    padding:0;
+}
+
+.nama{
+    font-size: 30px;
+    text-align: left;
+}
+
+.alamat{
+    grid-column: 1;
+    font-size: 25px;
+    text-align: left;
+}
+
+.hobby{
+    font-size: 30px;
+    grid-column: 2;
+    grid-row:1/span 2;
+    margin:auto
+}
